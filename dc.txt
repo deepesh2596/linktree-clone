@@ -1,0 +1,244 @@
+import React from 'react'
+
+const generate = () => {
+    return (
+        <div className='bg-[#FFFFFF] min-h-screen grid grid-cols-2'>
+            <div className="col1">
+                <div className="logo flex gap-5 item-center">
+                    <svg className='h-6 mt-6 ml-16' height="100%" viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block", width: "auto" }}>
+                        <title>Linktree Logo</title>
+                        <desc>Linktree Logo Symbol and Word Mark</desc>
+                        <path
+                            d="M0 1.72687H2.25964V13.6313H8.50582V15.7244H0V1.72687ZM10.7287 1.72687C10.9121 1.72444 11.0941 1.75816 11.2644 1.82609C11.4348 1.89402 11.59 1.99484 11.7214 2.12278C11.8528 2.25073 11.9576 2.4033 12.03 2.57178C12.1024 2.74026 12.1409 2.92135 12.1433 3.1047C12.1433 3.47987 11.9943 3.83967 11.729 4.10496C11.4637 4.37024 11.1039 4.51928 10.7287 4.51928C10.3536 4.51928 9.99375 4.37024 9.72847 4.10496C9.46318 3.83967 9.31415 3.47987 9.31415 3.1047C9.31491 2.92087 9.3523 2.73903 9.42412 2.56981C9.49594 2.40058 9.60076 2.24736 9.73245 2.11909C9.86414 1.99082 10.0201 1.89008 10.1911 1.82273C10.3622 1.75539 10.5449 1.7228 10.7287 1.72687ZM9.62645 5.63991H11.7942V15.7244H9.62645V5.63991ZM13.0618 5.63991H15.2296V7.03612C15.8714 5.97059 16.9737 5.36435 18.425 5.36435C20.7765 5.36435 22.2462 7.20146 22.2462 10.1225V15.7244H20.0784V10.3062C20.0784 8.41395 19.2517 7.34843 17.7587 7.34843C16.1249 7.34843 15.2247 8.46906 15.2247 10.4899V15.7244H13.057L13.0618 5.63991ZM23.3852 1.72687H25.553V10.5817L29.5946 5.63991H32.3135L27.9963 10.692L32.3135 15.7244H29.5946L25.553 10.8022V15.7244H23.3852V1.72687ZM33.1586 3.07408H35.3631V5.64604H37.9351V7.44641H35.3631V12.6442C35.3631 13.3068 35.7673 13.7109 36.3919 13.7109H37.8445V15.7305H36.098C34.2058 15.7305 33.1586 14.6099 33.1586 12.6271V3.07408ZM38.8904 5.64604H41.0582V6.89527C41.5909 5.93998 42.4911 5.37047 43.5934 5.37047C43.8478 5.35888 44.1024 5.38993 44.3466 5.46233V7.48315C44.0813 7.42486 43.8097 7.40017 43.5383 7.40966C41.94 7.40966 41.0582 8.75688 41.0582 11.0655V15.7305H38.8904V5.64604ZM49.4158 5.37047C51.804 5.37047 54.3944 6.82179 54.3944 10.9185V11.2125H46.6234C46.79 13.0116 47.8359 14.0037 49.5811 14.0037C50.8304 14.0037 51.8959 13.3239 52.1347 12.3882H54.3393C54.1188 14.4078 52.0245 16.0061 49.5811 16.0061C46.4581 16.0061 44.4936 13.9669 44.4936 10.6797C44.4936 7.75259 46.3858 5.36435 49.4158 5.36435V5.37047ZM52.0796 9.41211C51.7673 8.16288 50.7936 7.37292 49.4158 7.37292C48.0931 7.37292 47.1574 8.18125 46.79 9.41211H52.0796ZM60.2731 5.37047C62.6614 5.37047 65.2517 6.82179 65.2517 10.9185V11.2125H57.4807C57.646 13.0116 58.6932 14.0037 60.4385 14.0037C61.6877 14.0037 62.7532 13.3239 62.992 12.3882H65.1966C64.9761 14.4078 62.8818 16.0061 60.4385 16.0061C57.3154 16.0061 55.3497 13.9669 55.3497 10.6797C55.3497 7.75259 57.2419 5.36435 60.2731 5.36435V5.37047ZM62.9369 9.41211C62.6246 8.16288 61.651 7.37292 60.2731 7.37292C58.9504 7.37292 58.0135 8.18125 57.646 9.41211H62.9369Z"
+                            fill="#000000"
+                        ></path>
+                        <path
+                            d="M65.7852 5.33374H69.6615L66.9058 2.70668L68.4306 1.13901L71.0577 3.83956V0H73.3357V3.83956L75.9627 1.14513L77.4863 2.70668L74.7319 5.32762H78.607V7.49541H74.7098L77.4827 10.1898L75.9627 11.7208L72.1967 7.93631L68.4306 11.7208L66.9058 10.196L69.6798 7.50153H65.7852V5.33374ZM71.0515 10.6062H73.3296V15.7502H71.0515V10.6062Z"
+                            fill="#43E660"
+                        ></path>
+                    </svg>
+                </div>
+                
+                <div className='flex flex-col justify-center items-center gap-3'>
+                    <h1 className='font-bold text-5xl'>Join Linktree</h1>
+                    <h2 className='font-extralight '>Sign up for free!</h2>
+                </div>
+                <div className=''>
+                    <input className='rounded-lg' type="email" placeholder='email' />
+
+                </div>
+            </div>
+            <div className="w-full h-screen ">
+                <img className='h-full object-cover w-full' src="/generate.png" alt="Generate your links" />
+            </div>
+        </div>
+    )
+}
+
+export default generate
+
+
+
+
+
+
+chat gpt  code 
+import React from 'react'
+
+const Generate = () => {
+    return (
+        <div className="bg-[#FFFFFF] min-h-screen grid grid-cols-2">
+            {/* Left Column */}
+            <div className="relative">
+                {/* SVG Logo */}
+                <div className="logo flex gap-5 items-center">
+                <svg className='h-6 mt-12 ml-10' height="100%" viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block", width: "auto" }}>
+                        <title>Linktree Logo</title>
+                        <desc>Linktree Logo Symbol and Word Mark</desc>
+                        <path
+                            d="M0 1.72687H2.25964V13.6313H8.50582V15.7244H0V1.72687ZM10.7287 1.72687C10.9121 1.72444 11.0941 1.75816 11.2644 1.82609C11.4348 1.89402 11.59 1.99484 11.7214 2.12278C11.8528 2.25073 11.9576 2.4033 12.03 2.57178C12.1024 2.74026 12.1409 2.92135 12.1433 3.1047C12.1433 3.47987 11.9943 3.83967 11.729 4.10496C11.4637 4.37024 11.1039 4.51928 10.7287 4.51928C10.3536 4.51928 9.99375 4.37024 9.72847 4.10496C9.46318 3.83967 9.31415 3.47987 9.31415 3.1047C9.31491 2.92087 9.3523 2.73903 9.42412 2.56981C9.49594 2.40058 9.60076 2.24736 9.73245 2.11909C9.86414 1.99082 10.0201 1.89008 10.1911 1.82273C10.3622 1.75539 10.5449 1.7228 10.7287 1.72687ZM9.62645 5.63991H11.7942V15.7244H9.62645V5.63991ZM13.0618 5.63991H15.2296V7.03612C15.8714 5.97059 16.9737 5.36435 18.425 5.36435C20.7765 5.36435 22.2462 7.20146 22.2462 10.1225V15.7244H20.0784V10.3062C20.0784 8.41395 19.2517 7.34843 17.7587 7.34843C16.1249 7.34843 15.2247 8.46906 15.2247 10.4899V15.7244H13.057L13.0618 5.63991ZM23.3852 1.72687H25.553V10.5817L29.5946 5.63991H32.3135L27.9963 10.692L32.3135 15.7244H29.5946L25.553 10.8022V15.7244H23.3852V1.72687ZM33.1586 3.07408H35.3631V5.64604H37.9351V7.44641H35.3631V12.6442C35.3631 13.3068 35.7673 13.7109 36.3919 13.7109H37.8445V15.7305H36.098C34.2058 15.7305 33.1586 14.6099 33.1586 12.6271V3.07408ZM38.8904 5.64604H41.0582V6.89527C41.5909 5.93998 42.4911 5.37047 43.5934 5.37047C43.8478 5.35888 44.1024 5.38993 44.3466 5.46233V7.48315C44.0813 7.42486 43.8097 7.40017 43.5383 7.40966C41.94 7.40966 41.0582 8.75688 41.0582 11.0655V15.7305H38.8904V5.64604ZM49.4158 5.37047C51.804 5.37047 54.3944 6.82179 54.3944 10.9185V11.2125H46.6234C46.79 13.0116 47.8359 14.0037 49.5811 14.0037C50.8304 14.0037 51.8959 13.3239 52.1347 12.3882H54.3393C54.1188 14.4078 52.0245 16.0061 49.5811 16.0061C46.4581 16.0061 44.4936 13.9669 44.4936 10.6797C44.4936 7.75259 46.3858 5.36435 49.4158 5.36435V5.37047ZM52.0796 9.41211C51.7673 8.16288 50.7936 7.37292 49.4158 7.37292C48.0931 7.37292 47.1574 8.18125 46.79 9.41211H52.0796ZM60.2731 5.37047C62.6614 5.37047 65.2517 6.82179 65.2517 10.9185V11.2125H57.4807C57.646 13.0116 58.6932 14.0037 60.4385 14.0037C61.6877 14.0037 62.7532 13.3239 62.992 12.3882H65.1966C64.9761 14.4078 62.8818 16.0061 60.4385 16.0061C57.3154 16.0061 55.3497 13.9669 55.3497 10.6797C55.3497 7.75259 57.2419 5.36435 60.2731 5.36435V5.37047ZM62.9369 9.41211C62.6246 8.16288 61.651 7.37292 60.2731 7.37292C58.9504 7.37292 58.0135 8.18125 57.646 9.41211H62.9369Z"
+                            fill="#000000"
+                        ></path>
+                        <path
+                            d="M65.7852 5.33374H69.6615L66.9058 2.70668L68.4306 1.13901L71.0577 3.83956V0H73.3357V3.83956L75.9627 1.14513L77.4863 2.70668L74.7319 5.32762H78.607V7.49541H74.7098L77.4827 10.1898L75.9627 11.7208L72.1967 7.93631L68.4306 11.7208L66.9058 10.196L69.6798 7.50153H65.7852V5.33374ZM71.0515 10.6062H73.3296V15.7502H71.0515V10.6062Z"
+                            fill="#43E660"
+                        ></path>
+                    </svg>
+                </div>
+                {/* Main Content */}
+                <div className="flex flex-col justify-center h-full">
+                    <div className="text-center">
+                        <h1 className="font-bold text-5xl mb-3">Join Linktree</h1>
+                        <h2 className="font-extralight">Sign up for free!</h2>
+                    </div>
+                    <div className="mt-4">
+                        <input className="rounded-lg px-4 py-4 border" type="email" placeholder="email"/>
+                    </div>
+                </div>
+            </div>
+            {/* Right Column */}
+            <div className="w-full h-screen">
+                <img className="h-full object-cover w-full" src="/generate.png" alt="Generate your links"/>
+            </div>
+        </div>
+    )
+}
+
+export default Generate
+
+
+
+apple button 
+
+ <button className="flex items-center justify-centerw-3/4 bg-white border border-gray-300 rounded-full shadow-md  px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                                    <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" 
+                                        viewBox="-1.5 0 20 20" version="1.1">
+                                        <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                            <g id="Dribbble-Light-Preview" transform="translate(-102.000000, -7439.000000)" fill="#000000">
+                                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                    <path
+                                                        d="M57.5708873,7282.19296 C58.2999598,7281.34797 58.7914012,7280.17098 58.6569121,7279 C57.6062792,7279.04 56.3352055,7279.67099 55.5818643,7280.51498 C54.905374,7281.26397 54.3148354,7282.46095 54.4735932,7283.60894 C55.6455696,7283.69593 56.8418148,7283.03894 57.5708873,7282.19296 M60.1989864,7289.62485 C60.2283111,7292.65181 62.9696641,7293.65879 63,7293.67179 C62.9777537,7293.74279 62.562152,7295.10677 61.5560117,7296.51675 C60.6853718,7297.73474 59.7823735,7298.94772 58.3596204,7298.97372 C56.9621472,7298.99872 56.5121648,7298.17973 54.9134635,7298.17973 C53.3157735,7298.17973 52.8162425,7298.94772 51.4935978,7298.99872 C50.1203933,7299.04772 49.0738052,7297.68074 48.197098,7296.46676 C46.4032359,7293.98379 45.0330649,7289.44985 46.8734421,7286.3899 C47.7875635,7284.87092 49.4206455,7283.90793 51.1942837,7283.88393 C52.5422083,7283.85893 53.8153044,7284.75292 54.6394294,7284.75292 C55.4635543,7284.75292 57.0106846,7283.67793 58.6366882,7283.83593 C59.3172232,7283.86293 61.2283842,7284.09893 62.4549652,7285.8199 C62.355868,7285.8789 60.1747177,7287.09489 60.1989864,7289.62485"
+                                                        id="apple-[#173]">
+
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                    <span>Continue with Apple</span>
+                                </button>
+
+
+
+                                updated generate 
+                                "use client"
+import { React, useState } from 'react'
+import localFont from "next/font/local";
+import Link from 'next/link';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+const poppins = localFont({
+    src: "../fonts/Poppins-ExtraBold.ttf",
+    variable: "--font-poppins",
+    weight: "100 900",
+});
+
+const generate = () => {
+    // const [link, setlink] = useState("")
+    // const [linktext, setlinktext] = useState("")
+    const [links, setLinks] = useState([{ links: "", linktext: "" }])
+    const [handle, sethandle] = useState("")
+    const [pic, setpic] = useState("")
+
+    
+    const handlechange = (index, link, linktext) => {
+      setLinks((initialLinks)=>{
+        initialLinks.map((item,i)=>{
+            if (i==index){
+                return {link, linktext}
+            }
+            else {
+                return item
+            }
+        })
+      })
+    }
+
+    const addLink = () => {
+      setLinks(links.concat([{link: "", linktext: ""}]))
+    }
+    
+    
+
+    const submitLinks = async (text, link, handle) => {
+        const myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        const raw = JSON.stringify({
+            "links": links,
+            "handle": handle,
+            "pic" : pic
+        });
+       
+          console.log(raw)
+
+        const requestOptions = {
+            method: "POST",
+            headers: myHeaders,
+            body: raw,
+            redirect: "follow"
+        };
+
+        const r = await fetch("http://localhost:3000/api/add", requestOptions)
+        const result = await r.json()
+        toast(result.message)
+    }
+
+
+    return (
+
+        <div className='bg-[#FFFFFF] min-h-screen grid grid-cols-2'>
+            <div className="col1">
+                <div className="logo flex gap-5 item-center">
+                    <svg className='h-6 mt-12 ml-16' height="100%" viewBox="0 0 80 17" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block", width: "auto" }}>
+                        <title>Linktree Logo</title>
+                        <desc>Linktree Logo Symbol and Word Mark</desc>
+                        <path
+                            d="M0 1.72687H2.25964V13.6313H8.50582V15.7244H0V1.72687ZM10.7287 1.72687C10.9121 1.72444 11.0941 1.75816 11.2644 1.82609C11.4348 1.89402 11.59 1.99484 11.7214 2.12278C11.8528 2.25073 11.9576 2.4033 12.03 2.57178C12.1024 2.74026 12.1409 2.92135 12.1433 3.1047C12.1433 3.47987 11.9943 3.83967 11.729 4.10496C11.4637 4.37024 11.1039 4.51928 10.7287 4.51928C10.3536 4.51928 9.99375 4.37024 9.72847 4.10496C9.46318 3.83967 9.31415 3.47987 9.31415 3.1047C9.31491 2.92087 9.3523 2.73903 9.42412 2.56981C9.49594 2.40058 9.60076 2.24736 9.73245 2.11909C9.86414 1.99082 10.0201 1.89008 10.1911 1.82273C10.3622 1.75539 10.5449 1.7228 10.7287 1.72687ZM9.62645 5.63991H11.7942V15.7244H9.62645V5.63991ZM13.0618 5.63991H15.2296V7.03612C15.8714 5.97059 16.9737 5.36435 18.425 5.36435C20.7765 5.36435 22.2462 7.20146 22.2462 10.1225V15.7244H20.0784V10.3062C20.0784 8.41395 19.2517 7.34843 17.7587 7.34843C16.1249 7.34843 15.2247 8.46906 15.2247 10.4899V15.7244H13.057L13.0618 5.63991ZM23.3852 1.72687H25.553V10.5817L29.5946 5.63991H32.3135L27.9963 10.692L32.3135 15.7244H29.5946L25.553 10.8022V15.7244H23.3852V1.72687ZM33.1586 3.07408H35.3631V5.64604H37.9351V7.44641H35.3631V12.6442C35.3631 13.3068 35.7673 13.7109 36.3919 13.7109H37.8445V15.7305H36.098C34.2058 15.7305 33.1586 14.6099 33.1586 12.6271V3.07408ZM38.8904 5.64604H41.0582V6.89527C41.5909 5.93998 42.4911 5.37047 43.5934 5.37047C43.8478 5.35888 44.1024 5.38993 44.3466 5.46233V7.48315C44.0813 7.42486 43.8097 7.40017 43.5383 7.40966C41.94 7.40966 41.0582 8.75688 41.0582 11.0655V15.7305H38.8904V5.64604ZM49.4158 5.37047C51.804 5.37047 54.3944 6.82179 54.3944 10.9185V11.2125H46.6234C46.79 13.0116 47.8359 14.0037 49.5811 14.0037C50.8304 14.0037 51.8959 13.3239 52.1347 12.3882H54.3393C54.1188 14.4078 52.0245 16.0061 49.5811 16.0061C46.4581 16.0061 44.4936 13.9669 44.4936 10.6797C44.4936 7.75259 46.3858 5.36435 49.4158 5.36435V5.37047ZM52.0796 9.41211C51.7673 8.16288 50.7936 7.37292 49.4158 7.37292C48.0931 7.37292 47.1574 8.18125 46.79 9.41211H52.0796ZM60.2731 5.37047C62.6614 5.37047 65.2517 6.82179 65.2517 10.9185V11.2125H57.4807C57.646 13.0116 58.6932 14.0037 60.4385 14.0037C61.6877 14.0037 62.7532 13.3239 62.992 12.3882H65.1966C64.9761 14.4078 62.8818 16.0061 60.4385 16.0061C57.3154 16.0061 55.3497 13.9669 55.3497 10.6797C55.3497 7.75259 57.2419 5.36435 60.2731 5.36435V5.37047ZM62.9369 9.41211C62.6246 8.16288 61.651 7.37292 60.2731 7.37292C58.9504 7.37292 58.0135 8.18125 57.646 9.41211H62.9369Z"
+                            fill="#000000"
+                        ></path>
+                        <path
+                            d="M65.7852 5.33374H69.6615L66.9058 2.70668L68.4306 1.13901L71.0577 3.83956V0H73.3357V3.83956L75.9627 1.14513L77.4863 2.70668L74.7319 5.32762H78.607V7.49541H74.7098L77.4827 10.1898L75.9627 11.7208L72.1967 7.93631L68.4306 11.7208L66.9058 10.196L69.6798 7.50153H65.7852V5.33374ZM71.0515 10.6062H73.3296V15.7502H71.0515V10.6062Z"
+                            fill="#43E660"
+                        ></path>
+                    </svg>
+                </div>
+                <div className='text-center mt-10'>
+                    <div className='flex flex-col justify-center items-center gap-3'>
+                        <h1 className='font-bold text-4xl mb-2'>Create your Linktree</h1>
+                        <div className="item">
+                            <h2 className='font-semibold text-xl'>Step 1: Claim your Handle</h2>
+                            <input value={handle || ""} onChange={e => { sethandle(e.target.value) }} className='bg-[#F6F7F5] px-4 py-2 my-2 rounded-full focus:outline-slate-600' type="text" placeholder='Choose a handle' />
+                        </div>
+                        <div className="item">
+                            <h2 className='font-semibold text-xl'>Step 2: Add links</h2>
+                            {links && links.map((item, index) => {
+                                return <div key={index}>
+                                    <input value={item.linktext || ""} onChange={e => { handlechange(index, item.link, e.target.value, item.linktext) }} className='bg-[#F6F7F5] px-4 py-2 my-2 mx-2 rounded-full focus:outline-slate-600' type="text" placeholder='Enter link text' />
+                                    <input value={item.link || ""} onChange={e => { handlechange(index, e.target.value, item.linktext) }} className='bg-[#F6F7F5] px-4 py-2 my-2 mx-2 gap-3 rounded-full focus:outline-slate-600' type="text" placeholder='Enter link' />
+                                </div>
+                            })}
+                            <button onClick={() => addLink()} type="button" className="text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-3 text-center shadow-md hover:shadow-lg transition-all duration-150 dark:bg-purple-500 dark:hover:bg-purple-600 dark:focus:ring-purple-800 mx-2">Add links</button>
+                        </div>
+                        <div className="item">
+                            <h2 className='font-semibold text-xl'>Step 3: Add Picture & Finalize</h2>
+                            <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-[#F6F7F5] px-4 py-2 my-2 rounded-full focus:outline-slate-600' type="text" placeholder='Enter img link' />
+                            <button onClick={()=>{submitLinks}} type="button" className="text-white w-1/2 mt-4 bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-2 py-2 text-center shadow-md hover:shadow-lg transition-all duration-150 dark:bg-purple-500 dark:hover:bg-purple-600 dark:focus:ring-purple-800">Create Linktree</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div className="col2 w-full h-screen">
+                <img className='w-full h-screen object-cover' src="/generate3.png" alt="Generate your links" />
+                <ToastContainer />
+            </div>
+        </div>
+    )
+}
+
+export default generate
+
+
+
+import { useRouter } from 'next/navigation';
+
+
+const router = useRouter()
+setTimeout(() => {
+                router.push(`/${handle}`);
+            }, 100); // Optional delay to ensure state updates are reflected
